@@ -1,0 +1,281 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-color: black;
+}
+
+.main {
+  background-image: url(/Netflix/assets/bacground\ image.jpg);
+  background-size: max(1200px, 100vw);
+  position: relative;
+  z-index: 1;
+  background-position: center center;
+  height: 80vh;
+  background-repeat: no-repeat;
+}
+
+.main .box {
+  background-color: black;
+  height: 80vh;
+  opacity: 0.5;
+  position: relative;
+  z-index: 5;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 0px;
+  position: relative;
+  z-index: 10;
+}
+
+.netflix {
+  position: relative;
+  z-index: 10;
+  height: 2.5rem;
+  width: 9.2rem;
+}
+
+.search {
+  position: relative;
+  z-index: 10;
+  width: 10rem;
+  height: 32px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.language {
+  position: relative;
+  z-index: 20;
+  height: 32px;
+  width: 132px;
+  margin: 0px 20px;
+  border-radius: 5px;
+  border: 1px solid white;
+  color: white;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.sign-in {
+  height: 2rem;
+  width: 100rem;
+  /* padding: 0px 20px; */
+  background-color: rgb(229, 9, 20);
+  color: white;
+  border-radius: 5px;
+  position: relative;
+  border: none;
+  box-sizing: border-box;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 70vh;
+  /* background-color: white; */
+  color: white;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  position: relative;
+}
+.h1 {
+  margin: 0px 0px 20px 0px;
+  font-size: 48px;
+  position: relative;
+  z-index: 20;
+  font-weight: bolder;
+}
+.h2 {
+  margin: 10px;
+  font-size: 24px;
+}
+.h3 {
+  font-size: 18px;
+  margin: 10px;
+}
+.mail {
+  display: flex;
+  margin: 10px;
+}
+.email {
+  padding: 10px;
+  box-sizing: border-box;
+  width: 270px;
+  height: 56px;
+  font-size: 1.5rem;
+  color: white;
+  border-radius: 5px;
+  appearance: none;
+  background: transparent;
+  border: 2px solid rgba(126, 112, 254, 0.41);
+  margin: 0px 10px;
+}
+.start {
+  font-size: 1.5rem;
+  background-color: rgb(229, 9, 20);
+  color: white;
+  width: 14rem;
+  height: 56px;
+  border-radius: 5px;
+}
+
+/* ############1st cards############################ */
+.seperate {
+  height: 0.5rem;
+  background-color: rgba(79, 79, 79, 0.405);
+  box-shadow: inset;
+  /* filter: blur(5px); */
+}
+
+.first {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  max-width: 70vw;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+.secimg {
+  position: relative;
+}
+.secimg img {
+  width: 35vw;
+  position: relative;
+  z-index: 10;
+}
+.third .secimg img {
+  position: relative;
+  z-index: 10;
+}
+.third .secimg video {
+  width: 23vw;
+  height: 30vh;
+  position: absolute;
+  top: 5vh;
+  right: 6vw;
+}
+
+.secimg video {
+  position: absolute;
+  top: 9vh;
+  right: 5vw;
+  width: 25vw;
+  height: 32vh;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+}
+.s1 {
+  font-size: 48px;
+  font-weight: bolder;
+}
+.s2 {
+  font-size: 24px;
+}
+
+/* ############1st cards############################ */
+.Question {
+  font-size: 3rem;
+  margin: 60px 0px 30px 0px;
+  font-weight: bolder;
+}
+.faq {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500px;
+}
+.que {
+  margin: 5px 0px;
+  display: flex;
+  padding: 2px 12px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(45, 45, 45);
+  color: white;
+  width: 75vw;
+  height: 7vh;
+}
+
+/* last ail$$$$$$$$$ */
+h3 {
+  font-size: 1.2rem;
+  font-weight: 200;
+  margin: 50px 0px 20px;
+}
+.lastmail {
+  margin: 0px 0px 60px 0px;
+}
+
+/* footer$$$$$$$$$$$$$$$$$ */
+.fot-q {
+  width: 75vw;
+  display: flex;
+  justify-content: flex-start;
+  text-align: start;
+  /* background-color: red; */
+  color: rgba(255, 255, 255, 0.7);
+  margin: auto;
+}
+.fot-q .call {
+  margin: 0px 2px;
+  color: rgba(255, 255, 255, 0.7);
+}
+.foter {
+  height: 40vh;
+  display: flex;
+  width: 75vw;
+  justify-content: space-between;
+  margin: auto;
+  list-style: none;
+  /* background-color: green; */
+}
+
+.foter ul {
+  list-style: none;
+}
+
+.foter ul li {
+  margin: 1rem 0rem;
+}
+.foter a {
+  color: rgba(255, 255, 255, 0.7);
+}
+.foot-title {
+  font-size: 1.2rem;
+}
+.netf {
+  color: rgba(255, 255, 255, 0.7);
+}
+.fot2 {
+  margin: 5rem 0rem 0rem 0rem;
+}
+.elanguage {
+  position: relative;
+  z-index: 20;
+  height: 32px;
+  width: 132px;
+  margin: 0px;
+  padding: 5px;
+  border-radius: 3px;
+  border: 2px solid white;
+  color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(0, 0, 0, 0);
+  font-weight: bolder;
+}
