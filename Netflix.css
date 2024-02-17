@@ -7,24 +7,28 @@
 }
 body {
   background-color: black;
+  box-sizing: border-box;
 }
 
 .main {
   background-image: url(/Netflix/assets/bacground\ image.jpg);
+  /* background-size: minmax(200px, 100vw); */
   background-size: max(1200px, 100vw);
   position: relative;
-  z-index: 1;
+  z-index: 10;
   background-position: center center;
-  height: 80vh;
+  height: 90vh;
+  opacity: .4;
   background-repeat: no-repeat;
 }
 
-.main .box {
-  background-color: black;
-  height: 80vh;
-  opacity: 0.5;
+/* .main .box { */
+.box {
+  background-color: rgb(0, 0, 0);
+  height: 90vh;
+  opacity: 0.9;
   position: relative;
-  z-index: 5;
+  z-index: 100;
 }
 
 .nav {
@@ -33,12 +37,13 @@ body {
   align-items: center;
   padding: 20px 0px;
   position: relative;
+  /* position: fixed; */
   z-index: 10;
 }
 
 .netflix {
   position: relative;
-  z-index: 10;
+  z-index: 100;
   height: 2.5rem;
   width: 9.2rem;
 }
@@ -46,13 +51,13 @@ body {
 .search {
   position: relative;
   z-index: 10;
-  width: 10rem;
   height: 32px;
   display: flex;
   justify-content: space-around;
 }
 
 .language {
+  cursor: pointer;
   position: relative;
   z-index: 20;
   height: 32px;
@@ -65,9 +70,10 @@ body {
 }
 
 .sign-in {
-  height: 2rem;
-  width: 100rem;
-  /* padding: 0px 20px; */
+  cursor: pointer;
+  height: 4vh;
+  width: 6vw;
+  /* padding: 0px 10px; */
   background-color: rgb(229, 9, 20);
   color: white;
   border-radius: 5px;
@@ -94,7 +100,7 @@ body {
   font-size: 48px;
   position: relative;
   z-index: 20;
-  font-weight: bolder;
+  font-weight: 900;
 }
 .h2 {
   margin: 10px;
@@ -122,6 +128,7 @@ body {
   margin: 0px 10px;
 }
 .start {
+  cursor: pointer;
   font-size: 1.5rem;
   background-color: rgb(229, 9, 20);
   color: white;
@@ -130,7 +137,7 @@ body {
   border-radius: 5px;
 }
 
-/* ############1st cards############################ */
+/* ############   1st cards  ######################### */
 .seperate {
   height: 0.5rem;
   background-color: rgba(79, 79, 79, 0.405);
@@ -186,7 +193,7 @@ body {
   font-size: 24px;
 }
 
-/* ############1st cards############################ */
+/* #############  1st cards  ####################### */
 .Question {
   font-size: 3rem;
   margin: 60px 0px 30px 0px;
@@ -202,6 +209,7 @@ body {
   font-weight: 500px;
 }
 .que {
+  cursor: pointer;
   margin: 5px 0px;
   display: flex;
   padding: 2px 12px;
@@ -223,7 +231,7 @@ h3 {
   margin: 0px 0px 60px 0px;
 }
 
-/* footer$$$$$$$$$$$$$$$$$ */
+/* $$$$$$$$$$$$$$$$$$$    footer    $$$$$$$$$$$$$$$$$$ */
 .fot-q {
   width: 75vw;
   display: flex;
@@ -267,6 +275,7 @@ h3 {
   margin: 5rem 0rem 0rem 0rem;
 }
 .elanguage {
+  cursor: pointer;
   position: relative;
   z-index: 20;
   height: 32px;
@@ -279,3 +288,5 @@ h3 {
   background-color: rgba(0, 0, 0, 0);
   font-weight: bolder;
 }
+
+/* curser$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
