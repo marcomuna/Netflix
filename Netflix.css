@@ -14,21 +14,21 @@ body {
   background-image: url(/Netflix/assets/bacground\ image.jpg);
   /* background-size: minmax(200px, 100vw); */
   background-size: max(1200px, 100vw);
-  position: relative;
-  z-index: 10;
+  position: absolute;
+  /* z-index: 10; */
   background-position: center center;
   height: 90vh;
-  opacity: .4;
+  /* opacity: .6; */
   background-repeat: no-repeat;
 }
 
 /* .main .box { */
 .box {
-  background-color: rgb(0, 0, 0);
+  /* background-color: rgb(0, 0, 0); */
   height: 90vh;
-  opacity: 0.9;
+  opacity: 0.6;
   position: relative;
-  z-index: 100;
+  /* z-index: -5; */
 }
 
 .nav {
@@ -37,20 +37,19 @@ body {
   align-items: center;
   padding: 20px 0px;
   position: relative;
-  /* position: fixed; */
-  z-index: 10;
+  /* z-index: 10; */
 }
 
 .netflix {
   position: relative;
-  z-index: 100;
+  /* z-index: 100; */
   height: 2.5rem;
   width: 9.2rem;
 }
 
 .search {
   position: relative;
-  z-index: 10;
+  /* z-index: 10; */
   height: 32px;
   display: flex;
   justify-content: space-around;
@@ -59,7 +58,7 @@ body {
 .language {
   cursor: pointer;
   position: relative;
-  z-index: 20;
+  /* z-index: 20; */
   height: 32px;
   width: 132px;
   margin: 0px 20px;
@@ -99,7 +98,7 @@ body {
   margin: 0px 0px 20px 0px;
   font-size: 48px;
   position: relative;
-  z-index: 20;
+  /* z-index: 20; */
   font-weight: 900;
 }
 .h2 {
