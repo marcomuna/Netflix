@@ -11,7 +11,7 @@ body {
 }
 
 .main {
-  background-image: url(/assets/bacground/image.jpg);
+  background-image: url(../Netflix/assets/background.jpg);
   /* background-size: minmax(200px, 100vw); */
   background-size: max(1200px, 100vw);
   position: absolute;
